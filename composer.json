@@ -1,7 +1,20 @@
 {
     "name": "rauwang/converter",
-    "license": "n",
+    "type": "library",
+    "description": "对象转换器",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rauwang",
+            "email": "hi.rauwang@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rauwang\\converter\\": "/src"
+        }
     }
 }
