@@ -1,0 +1,7 @@
+{
+    "name": "rauwang/converter",
+    "license": "n",
+    "require": {
+        "php": "^7.2"
+    }
+}
